@@ -21,7 +21,7 @@ export function WelcomePage() {
       flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      backgroundImage: `linear-gradient(rgba(51, 6, 109, 0.6), rgba(0, 0, 0, 0.6)), url('/صووووووووووورة.jpg')`,
+      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/صووووووووووورة.jpg')`,
       backgroundSize: 'cover',
       textAlign: 'center',
       direction: 'rtl',

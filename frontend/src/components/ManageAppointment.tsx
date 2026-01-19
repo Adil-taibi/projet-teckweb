@@ -28,7 +28,7 @@ const inputStyle = {
 
 const backBtnStyle = {
   position: 'fixed' as const,
-  background: '#e74c3c',
+  background: '#ffffffff',
   color: 'white',
   border: 'none',
   borderRadius: '8px',
@@ -46,8 +46,8 @@ export function ManageAppointment() {
   const [availableSlots, setAvailableSlots] = useState<string[]>([]);
   const [bookedSlots, setBookedSlots] = useState<string[]>([]);
   const [newTime, setNewTime] = useState('');
-  const [loadingSlots, setLoadingSlots] = useState(false);
   
+  const [loadingSlots, setLoadingSlots] = useState(false);
   console.log(loadingSlots);
 
   const fetchMyData = async () => {
